@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const URL_ROOT = "https://ecommerce-gj9t.onrender.com/api/auth";
-// const URL_ROOT = "http://localhost:4000/api/auth";
+//const URL_ROOT = "http://localhost:4000/api/auth";
 
 const loginService = async (form) => {
   const resp = await axios.post(`${URL_ROOT}/login`, form);
