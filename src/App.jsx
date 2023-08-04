@@ -15,7 +15,7 @@ const App = () => {
         <PayPalScriptProvider
           options={{
             "client-id":
-              "ARx4d5eWP-JPPqGpXIsVyiHxkBcjUG6KIdsB9LdRE_PrrC6kvpHpJ8FgdQpjvjEB7ZWQ3sn-fKwW0T6U",
+              "Ae4ea5_zWeK7JZ8RW2kq0iMR8lr75bDqUqwhLyaEut6lr1uzZsS-9XIxVoBITDqri2N_CNJOvRvyFcYE",
           }}
         >
           <ProductState>
