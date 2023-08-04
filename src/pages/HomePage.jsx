@@ -2,8 +2,9 @@ import Header from "../components/Header";
 import "../styles/homepage.css";
 import "../styles/courses.css";
 import banner from "../assets/banner2.jpg";
-
 import completamentevirtual from "../assets/completamentevirtual.jpg";
+import mejortrabajo from "../assets/mejortrabajo.jpg";
+import dejalosmiedos from "../assets/dejalosmiedos.jpg";
 
 const HomePage = () => {
   return (
@@ -91,18 +92,18 @@ const HomePage = () => {
           <div className="col">
             <div className="card card-image">
               <img
-                src="./src\assets\mejortrabajo.jpg"
+                src={mejortrabajo}
                 className="card-img-top"
-                alt="..."
+                alt="mejortrabajo"
               />
             </div>
           </div>
           <div className="col">
             <div className="card card-image">
               <img
-                src="./src\assets\dejalosmiedos.jpg"
+                src={dejalosmiedos}
                 className="card-img-top"
-                alt="..."
+                alt="dejalosmiedos"
               />
             </div>
           </div>
