@@ -5,10 +5,6 @@ import banner from "../assets/banner2.jpg";
 
 import completamentevirtual from "../assets/completamentevirtual.jpg";
 
-import banner from "../assets/banner2.jpg";
-
-import banner from "../assets/banner2.jpg";
-
 const HomePage = () => {
   return (
     <>
