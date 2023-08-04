@@ -3,6 +3,12 @@ import "../styles/homepage.css";
 import "../styles/courses.css";
 import banner from "../assets/banner2.jpg";
 
+import completamentevirtual from "../assets/completamentevirtual.jpg";
+
+import banner from "../assets/banner2.jpg";
+
+import banner from "../assets/banner2.jpg";
+
 const HomePage = () => {
   return (
     <>
@@ -12,7 +18,6 @@ const HomePage = () => {
           <section className="banner">
             <article>
               <div className="banner-image">
-                {/* <img src="./src/assets/banner2.jpg" alt="Banner Image" /> */}
                 <img src={banner} alt="Banner Image" />
               </div>
             </article>
@@ -81,9 +86,9 @@ const HomePage = () => {
           <div className="col">
             <div className="card card-image">
               <img
-                src="./src\assets\completamentevirtual.jpg"
+                src={completamentevirtual}
                 className="card-img-top"
-                alt="..."
+                alt="completamentevirtual"
               />
             </div>
           </div>
