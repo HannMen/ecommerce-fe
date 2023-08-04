@@ -11,7 +11,11 @@ const HomePage = () => {
           <section className="banner">
             <article>
               <div className="banner-image">
-                <img src="./src/assets/banner2.jpg" alt="Banner Image" />
+                {/* <img src="./src/assets/banner2.jpg" alt="Banner Image" /> */}
+                <img
+                  src={require("../assets/banner2.jpg")}
+                  alt="Banner Image"
+                />
               </div>
             </article>
           </section>
@@ -123,22 +127,22 @@ const HomePage = () => {
         </div>
       </section>
 
-      <footer class="bg-light py-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <p class="text-center text-md-start">
+      <footer className="bg-light py-3">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <p className="text-center text-md-start">
                 &copy;2023 Elephant Institute. Todos los derechos reservados.
               </p>
             </div>
-            <div class="col-12 col-md-6">
-              <ul class="list-inline text-center text-md-end">
-                <li class="list-inline-item">
+            <div className="col-12 col-md-6">
+              <ul className="list-inline text-center text-md-end">
+                <li className="list-inline-item">
                   <a
                     href="https://www.facebook.com/elephantinstituteCol/"
                     target="_blank"
                   >
-                    <i class="bi bi-facebook"></i>
+                    <i className="bi bi-facebook"></i>
                   </a>
                 </li>
               </ul>
