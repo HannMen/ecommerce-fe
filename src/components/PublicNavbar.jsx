@@ -3,6 +3,7 @@ import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
 import ProductContext from "../context/ProductContext";
 import "../styles/navbar.css";
+import logo from "../assets/logo-elephant-institute.png";
 
 const PublicNavbar = () => {
   const { user, logout } = useContext(AuthContext);
@@ -12,7 +13,7 @@ const PublicNavbar = () => {
       <nav className="navbar navbar-expand-lg bg-white navbar-light">
         <div className="container">
           <NavLink className="navbar-brand" to="/home">
-            <img src="./src/assets/logo-elephant-institute.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </NavLink>
           <button
             className="navbar-toggler"
