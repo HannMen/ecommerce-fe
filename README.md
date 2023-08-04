@@ -1,12 +1,12 @@
 # Aplicacion web de "Elephant Institute Colombia"
 
-## El objetivo de esta aplicacion es que el usuario pueda comprar servicios de una tienda online.
+## El objetivo de esta aplicacion es que el usuario pueda comprar cursos de una tienda online.
 
 # Nombre del Proyecto
-Captura de Pantalla del Proyecto
+Elephant Institute Colombia
 
 ## Descripción
-Este proyecto es una aplicación web construida con React que muestra la marca Beautiful Gumption y sus productos. La aplicación proporciona información sobre la empresa, su misión y los productos que ofrece.
+Este proyecto es una aplicación web construida con React que muestra la marca Elephant Institute Colombia y sus cursos. La aplicación proporciona información sobre la empresa, su misión y los productos que ofrece.
 
 ## Demostración en Vivo
 Visita la demostración en vivo aquí https://beautiful-gumption-955df9.netlify.app/
@@ -23,10 +23,11 @@ React
 HTML5
 CSS3
 JavaScript
-Instalación
+
+## Instalación
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
-## Clona el repositorio: git clone https://github.com/usuario/nombre-del-proyecto.git
+Clona el repositorio: git clone https://github.com/usuario/nombre-del-proyecto.git
 Navega hasta el directorio del proyecto: cd nombre-del-proyecto
 Instala las dependencias: npm install
 Inicia el servidor de desarrollo: npm start
@@ -42,8 +43,7 @@ Las contribuciones a este proyecto son bienvenidas. Si encuentras algún problem
 Este proyecto está bajo la Licencia MIT.
 
 ## Reconocimientos
-Gracias al equipo de Beautiful Gumption por su apoyo e inspiración.
-
+Gracias al equipo de U-CAMP por su apoyo e inspiración.
 
 
 ## ENLACES
