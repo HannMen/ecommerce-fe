@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import "../styles/homepage.css";
 import "../styles/courses.css";
+import banner from "../assets/banner2.jpg";
 
 const HomePage = () => {
   return (
@@ -12,10 +13,7 @@ const HomePage = () => {
             <article>
               <div className="banner-image">
                 {/* <img src="./src/assets/banner2.jpg" alt="Banner Image" /> */}
-                <img
-                  src={require("../assets/banner2.jpg")}
-                  alt="Banner Image"
-                />
+                <img src={banner} alt="Banner Image" />
               </div>
             </article>
           </section>
