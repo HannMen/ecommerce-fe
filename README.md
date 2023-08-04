@@ -3,7 +3,7 @@
 ## El objetivo de esta aplicacion es que el usuario pueda comprar cursos de una tienda online.
 
 # Nombre del Proyecto
-Elephant Institute Colombia
+Elephant Institute Colombia E-Commerce
 
 ## Descripción
 Este proyecto es una aplicación web construida con React que muestra la marca Elephant Institute Colombia y sus cursos. La aplicación proporciona información sobre la empresa, su misión y los productos que ofrece.
