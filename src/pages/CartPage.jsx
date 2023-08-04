@@ -3,6 +3,8 @@ import ProductContext from "../context/ProductContext";
 import PaypalCheckoutButton from "../components/PayPalButton";
 import AuthContext from "../context/AuthContext";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import "../styles/footer.css";
 
 const CartPage = () => {
   const { cart, deleteCartProduct } = useContext(ProductContext);
@@ -86,29 +88,7 @@ const CartPage = () => {
           )}
         </article>
       </section>
-      <footer className="bg-light py-3">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-6">
-              <p className="text-center text-md-start">
-                &copy;2023 Elephant Institute. Todos los derechos reservados.
-              </p>
-            </div>
-            <div className="col-12 col-md-6">
-              <ul className="list-inline text-center text-md-end">
-                <li className="list-inline-item">
-                  <a
-                    href="https://www.facebook.com/elephantinstituteCol/"
-                    target="_blank"
-                  >
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };

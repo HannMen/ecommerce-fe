@@ -1,6 +1,7 @@
-import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../styles/homepage.css";
 import "../styles/courses.css";
+import "../styles/footer.css";
 import banner from "../assets/banner2.jpg";
 import completamentevirtual from "../assets/completamentevirtual.jpg";
 import mejortrabajo from "../assets/mejortrabajo.jpg";
@@ -127,29 +128,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <footer className="bg-light py-3">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-6">
-              <p className="text-center text-md-start">
-                &copy;2023 Elephant Institute. Todos los derechos reservados.
-              </p>
-            </div>
-            <div className="col-12 col-md-6">
-              <ul className="list-inline text-center text-md-end">
-                <li className="list-inline-item">
-                  <a
-                    href="https://www.facebook.com/elephantinstituteCol/"
-                    target="_blank"
-                  >
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };

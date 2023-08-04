@@ -1,5 +1,7 @@
 import { useState, useContext } from "react";
 import AuthContext from "../context/AuthContext";
+import Footer from "../components/Footer";
+import "../styles/footer.css";
 
 const initForm = {
   user_name: "",
