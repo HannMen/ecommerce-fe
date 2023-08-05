@@ -88,6 +88,10 @@ const CartPage = () => {
           )}
         </article>
       </section>
+      <br />
+      <br />
+      <br />
+
       <Footer />
     </>
   );
