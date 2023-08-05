@@ -79,6 +79,10 @@ const ProfilePage = () => {
           </div>
         </div>
       </main>
+      <br />
+      <br />
+      <br />
+
       <Footer />
     </>
   );
