@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../styles/footer.css";
-import fotoperfil from "../assets/fotoperfil.png";
 
 const AboutPage = () => {
   return (
@@ -76,6 +75,9 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <br />
       <Footer />
     </>
   );
